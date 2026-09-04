@@ -18,6 +18,9 @@ backend/results/
 # =========================
 node_modules/
 
+# Test files
+backend/pipeline/test_*.py
+
 # Generated Suricata rules
 backend/rules/combined_suricata.rules
 backend/rules/generated_suricata.rules
