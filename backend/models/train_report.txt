@@ -1,0 +1,14 @@
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00    316670
+      Botnet       0.61      0.99      0.76       247
+  BruteForce       1.00      1.00      1.00      1390
+        DDoS       1.00      1.00      1.00     12606
+         DoS       0.98      1.00      0.99      6073
+Infiltration       0.67      1.00      0.80         2
+    PortScan       0.99      1.00      1.00     31721
+   WebAttack       0.99      0.99      0.99       412
+
+    accuracy                           1.00    369121
+   macro avg       0.91      1.00      0.94    369121
+weighted avg       1.00      1.00      1.00    369121

@@ -1,0 +1,43 @@
+# =========================
+# Datasets
+# =========================
+backend/Dataset/
+
+# =========================
+# PCAP uploads
+# =========================
+backend/uploads/
+
+# =========================
+# Suricata / generated results
+# =========================
+backend/results/
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+
+# Generated Suricata rules
+backend/rules/combined_suricata.rules
+backend/rules/generated_suricata.rules
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# =========================
+# Logs
+# =========================
+*.log

@@ -1,0 +1,11 @@
+src/
+├── constants/
+│   ├── theme.js           # Design tokens, Colors, Fonts
+│   └── mockData.js        # Dataset, Initial states, Matrices
+├── components/
+│   ├── CommonUI.js        # VerdictChip, SourceChip, StatCard, PipelineStage
+│   ├── OverviewTab.js     # หน้าภาพรวมและกราฟ
+│   ├── FlowsTab.js        # ตารางและระบบคัดกรอง Flow
+│   ├── FlowDrawer.js      # Side Panel รายละเอียดและ SHAP Waterfall
+│   └── PerformanceTab.js  # metrics และ Confusion Matrix
+└── Dashboard.js           # Main Root Component
